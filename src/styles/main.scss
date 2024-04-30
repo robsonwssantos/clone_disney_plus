@@ -3,9 +3,6 @@
 @use 'shows';
 @use 'plans';
 @use 'available-devices'; 
-@use 'faq';
-@use 'footer';
-@use 'header';
 
 @font-face {
     font-family: Avenir;
@@ -121,12 +118,12 @@ body {
         border-color: variaveis.$corDeFundoBotaoSecundario;
 
         &:hover {
-            background-color: lighten(variaveis.$corDeFundoBotaoSecundario, 3%);
+            background-color: lighten(variaveis.$corDeFundoBotaoPrimario, 3%);
         }
     }
 
     &--dark {
-        background-color: rgba(variaveis.$corDeFundoBotaoDark, 0.8);
+        background-color: rgba(variaveis.$corDeFundoBotaoSecundario, 0.8);
         border-color: variaveis.$corTextoSecundario;
 
         &:hover {
